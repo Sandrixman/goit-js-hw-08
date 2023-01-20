@@ -15,14 +15,18 @@
   "author": "Alexander>",
   "license": "ISC",
   "dependencies": {
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "@vimeo/player": "^2.18.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
