@@ -18,7 +18,7 @@ function onTextareaInput(e) {
 }
 
 function loadFormData() {
-  const parceFormData = JSON.parse(localStorage.getItem(STORAGE_KEY));
+  const parceFormData = JSON.parse(localStorage.getItem(STORAGE_KEY)) || formData;
   if (parceFormData.email) {
     formData.email = parceFormData.email;
     email.value = formData.email;
