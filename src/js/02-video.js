@@ -6,7 +6,7 @@ const player = new Player('vimeo-player', {
   width: 640,
 });
 
-const STORAGE_KEY = 'videoplayer-current-time'
+const STORAGE_KEY = 'videoplayer-current-time';
 
 player.setCurrentTime(
   JSON.parse(localStorage.getItem(STORAGE_KEY)).seconds || 0
